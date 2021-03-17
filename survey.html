@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="survey.css">  
+      <title>survey page</title>
+    </head>
+    <body>
+      <h1 id="title">General Survey</h1>
+      <p id="description">Just a template of a survey</p>
+      <form id="survey-form" >
+        <div class="combinig">
+            <label class="input_description" id="name-label">Type your name</p>
+            <input id="name" placeholder="Type your name" type="text">
+        </div>  
+        <div class="combinig">
+        <label class="input_description" id="email-label">Type email</p>
+        <input id="email" placeholder="Type your Email" type="email">
+        </div>
+        <div class="combinig">
+        <label class="input_description" id="number-label">Type your number</p>
+        <input id="number" placeholder="Type a number" type="number" min="1" max="99">
+        </div>     
+        <div class="combinig">
+            <label class="input_description" id="dropdown-label">Describe yourself</p>
+            <select id="dropdown" placeholder="Select your occupation" >
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="Part-Timer">Part-Timer</option>
+                <option value="Full-Timer">Full-Timer</option>
+                <option value="Seniour">Senior</option>
+            </select>
+            </div> 
+        <div class="combinig">
+            <div>
+                
+            <label class="input_description">Was it hard to take this survey?</label>
+            <div><input id="radio" type="radio" name="choice">
+            <label for="yes">YES</label></div>
+            </div>
+            <div>
+                <div> <input type="radio" name="choice">
+                <label for="no">NO</label></div>
+            </div>
+        </div>
+        <div class="combinig">
+            <label class="input_description" >Tell me, which cars do you prefer?</label>
+            <div><input type="checkbox" name="cars">
+                <label for="Ford">Ford</label></div>
+
+                <div><input type="checkbox" name ="cars">
+                <label  for="Toyota">Toyota</label></div>
+
+                <div><input type="checkbox" name="cars">
+                <label  for = "Mercedes">Mercedes</label></div>
+        </div>
+
+        <div class="combinig">
+            <div>
+            <label class="input_description">Add a comment:</label>
+            </div>
+           <textarea rows="5" cols="50"></textarea> 
+        </div>
+        <div class="combinig"> <button id="sumbit">Submit</button></div>
+    </form>
+      
+    </body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background:url(https://images.unsplash.com/photo-1530983533545-d57350951dfc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: honeydew;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    color: honeydew;
+}
+.input_description{
+    text-align: left;
+    font-size: 12px;
+}
+.combinig{
+    padding:20px 20px 5px 20px ;
+}
+#survey-form{
+    position:relative;
+    left:25%;
+    right:25%;
+    width:50%;
+    height:80%;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: black;
+    z-index: 99;
+    background-color: rgba(218,112,214,0.7);
+    
+}
+
+
